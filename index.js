@@ -14,7 +14,7 @@ client.on('qr', qr => {
 });
 
 client.on('ready', () => {
-    console.log('البوت شغال وزي الفل!');
+    console.log('البوت شغال بنجاح!');
 });
 
 client.initialize();
