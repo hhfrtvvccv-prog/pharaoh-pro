@@ -1,11 +1,16 @@
 {
   "name": "pharaoh-bot",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "description": "WhatsApp Bot on Railway",
   "main": "index.js",
-  "scripts": { "start": "node index.js" },
-  "dependencies": {
-    "whatsapp-web.js": "^1.23.0",
-    "qrcode-terminal": "^0.12.0"
+  "scripts": {
+    "start": "node index.js"
   },
-  "engines": { "node": "18.x" }
+  "dependencies": {
+    "whatsapp-web.js": "latest",
+    "qrcode-terminal": "latest"
+  },
+  "engines": {
+    "node": "18.x"
+  }
 }
